@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Dinosaur SfM",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\main.py",
+      "console": "integratedTerminal",
+      "args": ["--max-views", "10"]
+    },
+    {
+      "name": "Download and Run Dinosaur SfM",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\main.py",
+      "console": "integratedTerminal",
+      "args": ["--download-dinosaur", "--max-views", "10"]
+    }
+  ]
+}
